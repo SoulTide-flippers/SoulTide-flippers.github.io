@@ -11,9 +11,6 @@ input[type="submit"] {
   input[type="submit"]:hover {
     color: black; }
 
-#logo {
-  width: 500px; }
-
 #mc_embed_signup {
   text-align: center;
   margin: auto; }
