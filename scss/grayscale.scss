@@ -1,5 +1,24 @@
 @import 'variables.scss';
 @import 'mixins.scss';
+
+input[type="submit"] {
+  background: none;
+  border: none;
+  color: $primary;
+  cursor: pointer;
+  &:hover {
+    color: black;
+  }
+}
+#logo {
+  width: 500px;
+}
+
+#mc_embed_signup {
+  text-align: center;
+  margin: auto;
+}
+
 body {
   font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
@@ -199,7 +218,7 @@ a {
 
 .download-section {
   color: white;
-  background: url('../img/downloads-bg.jpg') no-repeat center center scroll;
+  background: url('../img/turtle.jpg') no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
